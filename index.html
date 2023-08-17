@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            button {
+                background-color: blue;
+                color: antiquewhite;
+                border: none;
+                padding: 15px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hi, my name is Ayo</p>
+       <p>
+            <button id="google">Go to Google</button>
+            <button id="alexa">Visit Alexa</button>
+       </p>
+        <p>
+            <a href="https://google.com"> Click to Visit google </a>
+        </p>
+
+        <script>
+            document.getElementById("google").addEventListener("click", function(){
+                alert("Hey, you clicked to visit google.com")
+            })
+        </script>
+    </body>
+</html>
